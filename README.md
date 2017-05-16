@@ -68,12 +68,12 @@ abaixo. Além da posição, coloque um fundo semitransparente (tipo
 ![](imgs/titulos-nas-imagens.png)
 
 
-## Exercício 3: botão "voltar ao topo" ↑
+## Exercício 3: botão "voltar ao topo" ⬆️
 
 Ao final do `<main>...</main>` (a última coisa dentro dele), (a) crie
 um hiperlink (`<a>...</a>`) com atributo `href="#topo-da-pagina"`
 (que é o `id` que o professor colocou no `<header></header>`) e
-coloque, dentro do elemento `<a></a>`, apenas esta setinha: ↑ (copie
+coloque, dentro do elemento `<a></a>`, apenas esta setinha: ⬆️ (copie
 aqui e cole lá).
 
 Após criar o elemento e ver que ele apareceu na página, você deve
@@ -167,7 +167,6 @@ Neste exercício, queremos deixar a nuvem de _tags_ (elemento `#tags`)
 grudenta, de forma que, quando a página for rolada, ela acompanhe a
 rolagem. Isso pode ser feito facilmente com o posicionamento `sticky`.
 Pesquise na Internet como fazer isso.
-
 
 ## FAQ
 
