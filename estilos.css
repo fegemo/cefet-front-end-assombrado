@@ -56,6 +56,16 @@ header a {
   text-shadow: 1px 1px black;
 }
 
+header::selection,
+header ::selection,
+footer::selection,
+footer ::selection,
+#tags::selection,
+#tags ::selection {
+  color: white;
+  background-color: hotpink;
+}
+
 a:link {
   color: orange;
 }
