@@ -132,6 +132,14 @@ main {
   display: inline-block;
 }
 
+.novidade::before {
+  content: "Novidade!";
+  color: white;
+  background-color: forestgreen;
+  padding: 0.25em;
+  border-radius: 0.25em;
+}
+
 #tags {
   float: right;
   width: 300px;
