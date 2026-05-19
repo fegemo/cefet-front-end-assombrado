@@ -20,6 +20,7 @@ terminar passa a ser a pior coisa do mundo.
 
 Portanto, veja no [FAQ](#faq) como fazer o vídeo desaparecer mais rapidamente.
 
+
 ## Exercício 1: _tags_ semânticas
 
 Converta as `<div>` e `<span>` nas _tags_ semânticas mais adequadas,
@@ -37,6 +38,7 @@ Por exemplo, se você tirar o `id` da `<div id="header">...</div>`,
 faça uma busca por `#header` no arquivo CSS para verificar se precisa alterá-lo
 de forma que os estilos continuem se aplicando mesmo depois da alteração.
 
+
 ## Exercício 2: menu horizontal
 
 Torne horizontal a lista com o menu principal. Faça de forma que o menu
@@ -46,6 +48,10 @@ fique semelhante ao da imagem final (lá em cima). Veja como
 Você vai precisar usar a propriedade `display`.
 [Veja como nos slides][propriedade-display].
 
+Uma ideia é tornar cada item da lista `inline-block`. Contudo, alunos 
+**superpremium** (e você é um deles) utilizam Flexbox.
+
+
 ## Exercício 3: "Novidade!"
 
 Usando pseudo-elementos ([slides][pseudo-coisas]), faça com que toda
@@ -53,7 +59,7 @@ postagem que possui a classe `.novidade` tenha o texto "Novidade!"
 imediatamente antes do seu conteúdo (como na imagem lá em cima). Use
 sua criatividade para estilizar de uma forma bonita e legal.
 
-## Exercício 4: seleção de texto
+## Desafio 1: seleção de texto
 
 Ao selecionar o texto em uma página, o navegador escolhe uma cor de fundo e
 para o texto para mostrar o que foi selecionado.
@@ -66,12 +72,14 @@ fiquem diferentes do texto selecionado no "miolo" da página.
 Se parecer não estar funcionado, veja a discussão no terceiro tópico
 do [FAQ](#faq).
 
+
 ## FAQ
 
 1. **Toda hora tenho que assistir** o vídeo?? Sacanagem, né?!
    - No arquivo `index.html`, ao final do `<body>...</body>` há um pequeno
      código JavaScript que faz o vídeo sumir e o conteúdo principal aparecer
    - Altere o tempo (de 11s) para algo menor (eg, de **11000 para 1100**)
+1. Menu horizontal com flexbox? [Slides][slides-flexbox]
 1. Mudei umas _tags_ de `<div>` para semântica e, de repente, **o conteúdo
    principal da página sumiu**. Por quê?
    - Isso aconteceu por causa do pequeno código JavaScript que tem ao final
@@ -130,3 +138,4 @@ do [FAQ](#faq).
 [lista-horizontal]: https://fegemo.github.io/cefet-front-end/classes/html5/#elementos-semanticos
 [propriedade-display]: https://fegemo.github.io/cefet-front-end/classes/html5/#a-propriedade-display
 [pseudo-coisas]: https://fegemo.github.io/cefet-front-end/classes/html5/#pseudo-classes-e-pseudo-elements
+[slides-flexbox]: https://fegemo.github.io/cefet-front-end/classes/css4/#14
